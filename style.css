@@ -29,15 +29,31 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: opacity 4s;
+}
+.ex-4-square:hover {
+    opacity: 0;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: width 4s, height 4s;
+}
+.ex-5-square:hover {
+    height: 90px;
+    width: 90px;
+}
+.ex-5-square:hover:active {
+    width: 30px;
+    height: 30px;
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+.ex-6-img:hover{
+    filter: grayscale(1);
 }
 
 .ex-9-img {
